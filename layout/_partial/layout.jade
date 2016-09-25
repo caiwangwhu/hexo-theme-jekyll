@@ -5,14 +5,12 @@ html(lang=config.language)
     body
         header.row-flex-row.limit-width.vh-center
             a(href=url_for()).logo
-                img(src=url_for('favicon.png'))
+                img(src=url_for('https://avatars0.githubusercontent.com/u/3350542?v=3&s=466'))
             include ../_components/nav
         .container.limit-width
             section.row-flex-row
                 block content
-        .extra
-            block extra
-                
+       
         footer.footer
             .row-flex-row.limit-width.vh-center
                 include ../_components/footer
